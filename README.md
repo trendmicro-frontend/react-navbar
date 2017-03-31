@@ -39,9 +39,8 @@ import Navbar from '@trendmicro/react-navbar';
 import { Nav, NavDropdown, NavItem, MenuItem } from '@trendmicro/react-navs';
 import styles from './index.styl'; // CSS Modules
 
+const noop = () => {};
 const HorizontalNavbar = ({ state, actions }) => {
-    const { autoOpen } = state;
-
     return (
         <div>
             <header className={styles.siteHeader}>
@@ -60,7 +59,9 @@ const HorizontalNavbar = ({ state, actions }) => {
                         <i className="fa fa-star" style={{ color: '#fff' }} />
                     </NavItem>
                     <NavDropdown
-                        autoOpen={autoOpen}
+                        open={false}
+                        onToggle={noop}
+                        autoOpen
                         noCaret
                         eventKey="dashboard"
                         title="Dashboard"
@@ -72,7 +73,9 @@ const HorizontalNavbar = ({ state, actions }) => {
                         <MenuItem eventKey="dashboard.4">Menu Item 4</MenuItem>
                     </NavDropdown>
                     <NavDropdown
-                        autoOpen={autoOpen}
+                        open={false}
+                        onToggle={noop}
+                        autoOpen
                         noCaret
                         eventKey="devices"
                         title="Devices"
@@ -84,7 +87,9 @@ const HorizontalNavbar = ({ state, actions }) => {
                         <MenuItem eventKey="devices.4">Menu Item 4</MenuItem>
                     </NavDropdown>
                     <NavDropdown
-                        autoOpen={autoOpen}
+                        open={false}
+                        onToggle={noop}
+                        autoOpen
                         noCaret
                         eventKey="reports"
                         title="Reports"
@@ -96,7 +101,9 @@ const HorizontalNavbar = ({ state, actions }) => {
                         <MenuItem eventKey="reports.4">Menu Item 4</MenuItem>
                     </NavDropdown>
                     <NavDropdown
-                        autoOpen={autoOpen}
+                        open={false}
+                        onToggle={noop}
+                        autoOpen
                         noCaret
                         eventKey="administration"
                         title="Administration"
@@ -119,7 +126,9 @@ const HorizontalNavbar = ({ state, actions }) => {
                         </Dropdown.SubMenu>
                     </NavDropdown>
                     <NavDropdown
-                        autoOpen={autoOpen}
+                        open={false}
+                        onToggle={noop}
+                        autoOpen
                         noCaret
                         eventKey="help"
                         title="Help"
@@ -154,13 +163,9 @@ HorizontalNavbar.propTypes = {
 
 class App extends React.Component {
     state = {
-        autoOpen: true,
         tab: ''
     };
     actions = {
-        onToggle: (open) => {
-            this.setState({ autoOpen: !open });
-        },
         selectTab: (eventKey, event) => {
             if (!eventKey) {
                 return;
