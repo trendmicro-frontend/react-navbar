@@ -65,7 +65,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                         noCaret
                         eventKey="dashboard"
                         title="Dashboard"
-                        onToggle={actions.onToggle}
                     >
                         <MenuItem eventKey="dashboard.1">Menu Item 1</MenuItem>
                         <MenuItem eventKey="dashboard.2">Menu Item 2</MenuItem>
@@ -79,7 +78,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                         noCaret
                         eventKey="devices"
                         title="Devices"
-                        onToggle={actions.onToggle}
                     >
                         <MenuItem eventKey="devices.1">Menu Item 1</MenuItem>
                         <MenuItem eventKey="devices.2">Menu Item 2</MenuItem>
@@ -93,7 +91,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                         noCaret
                         eventKey="reports"
                         title="Reports"
-                        onToggle={actions.onToggle}
                     >
                         <MenuItem eventKey="reports.1">Menu Item 1</MenuItem>
                         <MenuItem eventKey="reports.2">Menu Item 2</MenuItem>
@@ -107,7 +104,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                         noCaret
                         eventKey="administration"
                         title="Administration"
-                        onToggle={actions.onToggle}
                     >
                         <MenuItem eventKey="administration.1">Menu Item 1</MenuItem>
                         <MenuItem eventKey="administration.2">Menu Item 2</MenuItem>
@@ -132,7 +128,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                         noCaret
                         eventKey="help"
                         title="Help"
-                        onToggle={actions.onToggle}
                     >
                         <MenuItem eventKey="help.1">Menu Item 1</MenuItem>
                         <MenuItem eventKey="help.2">Menu Item 2</MenuItem>
