@@ -4946,15 +4946,10 @@ exports = module.exports = __webpack_require__("../node_modules/css-loader/lib/c
 
 
 // module
-exports.push([module.i, ".site-header---bQxLL {\n  position: relative;\n  padding: 0 20px;\n  height: 64px;\n  margin-bottom: 0;\n  background-color: #fff;\n}\n.site-header---bQxLL a:link,\n.site-header---bQxLL a:hover,\n.site-header---bQxLL a:active,\n.site-header---bQxLL a:visited,\n.site-header---bQxLL a:focus {\n  color: #222;\n  text-decoration: none;\n}\n.site-header---bQxLL .banner---3Mx-y {\n  width: 32px;\n  height: 32px;\n  margin: 16px 0;\n  margin-right: 10px;\n  background: url(" + __webpack_require__("../src/tball.svg") + ") center left no-repeat;\n  float: left;\n}\n.site-title---3fP6x {\n  padding: 16px 0;\n  font-family: \"Interstate-Light\", Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n  font-size: 26px;\n  font-weight: 200;\n  letter-spacing: -0.03em;\n  white-space: nowrap;\n}\n.sr-only---2ipal {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n  padding: 0;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  border: 0;\n}\n.navbar---LuvzC {\n  position: relative;\n  height: 40px;\n  border: 0;\n}\n.navbar-default---1GgIK {\n  background-color: #db3d44;\n  border-color: #db3d44;\n}\n@media (min-width: 768px) {\n  .navbar-header---3W2_o {\n    float: left;\n  }\n}\n.navbar-brand---2h97J {\n  float: left;\n  padding: 15px;\n  font-size: 18px;\n  line-height: 20px;\n  height: 50px;\n}\n.navbar-brand---2h97J:focus,\n.navbar-brand---2h97J:hover {\n  text-decoration: none;\n}\n.navbar-brand---2h97J > img {\n  display: block;\n}\n@media (min-width: 768px) {\n  .navbar---LuvzC > .container-fluid---1bHSz .navbar-brand---2h97J,\n  .navbar---LuvzC > .container---1tcgR .navbar-brand---2h97J {\n    margin-left: -15px;\n  }\n}\n.navbar-toggle---1a-Jm {\n  position: relative;\n  float: right;\n  margin-right: 15px;\n  padding: 9px 10px;\n  margin-top: 8px;\n  margin-bottom: 8px;\n  background-color: transparent;\n  background-image: none;\n  border: 1px solid transparent;\n  border-radius: 4px;\n}\n@media (min-width: 768px) {\n  .navbar-toggle---1a-Jm {\n    display: none;\n  }\n}\n.navbar-toggle---1a-Jm:focus {\n  outline: 0;\n}\n.navbar-toggle---1a-Jm .icon-bar---2jamJ {\n  display: block;\n  width: 22px;\n  height: 2px;\n  border-radius: 1px;\n}\n.navbar-toggle---1a-Jm .icon-bar---2jamJ + .icon-bar---2jamJ {\n  margin-top: 4px;\n}\n.navbar-collapse---3SxGN {\n  overflow-x: visible;\n  border-top: 1px solid transparent;\n  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);\n  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);\n  -webkit-overflow-scrolling: touch;\n}\n.navbar-collapse---3SxGN.in---3rbq2 {\n  overflow-y: auto;\n}\n@media (min-width: 768px) {\n  .navbar-collapse---3SxGN {\n    width: auto;\n    border-top: 0;\n    -webkit-box-shadow: none;\n    box-shadow: none;\n  }\n  .navbar-collapse---3SxGN.collapse---2bZfy {\n    display: block !important;\n    height: auto !important;\n    padding-bottom: 0;\n    overflow: visible !important;\n  }\n  .navbar-collapse---3SxGN.in---3rbq2 {\n    overflow-y: visible;\n  }\n}\n", ""]);
+exports.push([module.i, ".sr-only---2ipal {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n  padding: 0;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  border: 0;\n}\n.navbar---LuvzC {\n  position: relative;\n  height: 40px;\n  border: 0;\n}\n.navbar-default---1GgIK {\n  background-color: #db3d44;\n  border-color: #db3d44;\n}\n@media (min-width: 768px) {\n  .navbar-header---3W2_o {\n    float: left;\n  }\n}\n.navbar-brand---2h97J {\n  float: left;\n  padding: 15px;\n  font-size: 18px;\n  line-height: 20px;\n  height: 50px;\n}\n.navbar-brand---2h97J:focus,\n.navbar-brand---2h97J:hover {\n  text-decoration: none;\n}\n.navbar-brand---2h97J > img {\n  display: block;\n}\n@media (min-width: 768px) {\n  .navbar---LuvzC > .container-fluid---1bHSz .navbar-brand---2h97J,\n  .navbar---LuvzC > .container---1tcgR .navbar-brand---2h97J {\n    margin-left: -15px;\n  }\n}\n.navbar-toggle---1a-Jm {\n  position: relative;\n  float: right;\n  margin-right: 15px;\n  padding: 9px 10px;\n  margin-top: 8px;\n  margin-bottom: 8px;\n  background-color: transparent;\n  background-image: none;\n  border: 1px solid transparent;\n  border-radius: 4px;\n}\n@media (min-width: 768px) {\n  .navbar-toggle---1a-Jm {\n    display: none;\n  }\n}\n.navbar-toggle---1a-Jm:focus {\n  outline: 0;\n}\n.navbar-toggle---1a-Jm .icon-bar---2jamJ {\n  display: block;\n  width: 22px;\n  height: 2px;\n  border-radius: 1px;\n}\n.navbar-toggle---1a-Jm .icon-bar---2jamJ + .icon-bar---2jamJ {\n  margin-top: 4px;\n}\n.navbar-collapse---3SxGN {\n  overflow-x: visible;\n  border-top: 1px solid transparent;\n  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);\n  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);\n  -webkit-overflow-scrolling: touch;\n}\n.navbar-collapse---3SxGN.in---3rbq2 {\n  overflow-y: auto;\n}\n@media (min-width: 768px) {\n  .navbar-collapse---3SxGN {\n    width: auto;\n    border-top: 0;\n    -webkit-box-shadow: none;\n    box-shadow: none;\n  }\n  .navbar-collapse---3SxGN.collapse---2bZfy {\n    display: block !important;\n    height: auto !important;\n    padding-bottom: 0;\n    overflow: visible !important;\n  }\n  .navbar-collapse---3SxGN.in---3rbq2 {\n    overflow-y: visible;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"site-header": "site-header---bQxLL",
-	"siteHeader": "site-header---bQxLL",
-	"banner": "banner---3Mx-y",
-	"site-title": "site-title---3fP6x",
-	"siteTitle": "site-title---3fP6x",
 	"sr-only": "sr-only---2ipal",
 	"srOnly": "sr-only---2ipal",
 	"navbar": "navbar---LuvzC",
@@ -4975,6 +4970,26 @@ exports.locals = {
 	"navbarCollapse": "navbar-collapse---3SxGN",
 	"in": "in---3rbq2",
 	"collapse": "collapse---2bZfy"
+};
+
+/***/ }),
+
+/***/ "../node_modules/css-loader/index.js?camelCase&modules&importLoaders=1&localIdentName=[local]---[hash:base64:5]!../node_modules/stylus-loader/index.js!../node_modules/stylint-loader/index.js!./index.styl":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../node_modules/css-loader/lib/css-base.js")(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".site-header---26ZVx {\n  position: relative;\n  padding: 0 20px;\n  height: 64px;\n  margin-bottom: 0;\n  background-color: #fff;\n}\n.site-header---26ZVx a:link,\n.site-header---26ZVx a:hover,\n.site-header---26ZVx a:active,\n.site-header---26ZVx a:visited,\n.site-header---26ZVx a:focus {\n  color: #222;\n  text-decoration: none;\n}\n.site-header---26ZVx .banner---3N_UL {\n  width: 32px;\n  height: 32px;\n  margin: 16px 0;\n  margin-right: 10px;\n  background: url(" + __webpack_require__("./tball.svg") + ") center left no-repeat;\n  float: left;\n}\n.site-header---26ZVx .title---13wRS {\n  padding: 16px 0;\n  font-family: \"Interstate-Light\", Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n  font-size: 26px;\n  font-weight: 200;\n  letter-spacing: -0.03em;\n  white-space: nowrap;\n}\n", ""]);
+
+// exports
+exports.locals = {
+	"site-header": "site-header---26ZVx",
+	"siteHeader": "site-header---26ZVx",
+	"banner": "banner---3N_UL",
+	"title": "title---13wRS"
 };
 
 /***/ }),
@@ -30034,207 +30049,6 @@ exports.default = NavbarToggle;
 
 /***/ }),
 
-/***/ "../src/SiteBanner.jsx":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _classnames = __webpack_require__("../node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _react = __webpack_require__("../node_modules/react/react.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _index = __webpack_require__("../src/index.styl");
-
-var _index2 = _interopRequireDefault(_index);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SiteBanner = function (_Component) {
-    _inherits(SiteBanner, _Component);
-
-    function SiteBanner() {
-        _classCallCheck(this, SiteBanner);
-
-        return _possibleConstructorReturn(this, (SiteBanner.__proto__ || Object.getPrototypeOf(SiteBanner)).apply(this, arguments));
-    }
-
-    _createClass(SiteBanner, [{
-        key: 'render',
-        value: function render() {
-            var _props = this.props,
-                className = _props.className,
-                props = _objectWithoutProperties(_props, ['className']);
-
-            return _react2.default.createElement('i', _extends({}, props, { className: (0, _classnames2.default)(className, _index2.default.banner) }));
-        }
-    }]);
-
-    return SiteBanner;
-}(_react.Component);
-
-exports.default = SiteBanner;
-
-/***/ }),
-
-/***/ "../src/SiteHeader.jsx":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _classnames = __webpack_require__("../node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _react = __webpack_require__("../node_modules/react/react.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _index = __webpack_require__("../src/index.styl");
-
-var _index2 = _interopRequireDefault(_index);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SiteHeader = function (_Component) {
-    _inherits(SiteHeader, _Component);
-
-    function SiteHeader() {
-        _classCallCheck(this, SiteHeader);
-
-        return _possibleConstructorReturn(this, (SiteHeader.__proto__ || Object.getPrototypeOf(SiteHeader)).apply(this, arguments));
-    }
-
-    _createClass(SiteHeader, [{
-        key: 'render',
-        value: function render() {
-            var _props = this.props,
-                className = _props.className,
-                children = _props.children,
-                props = _objectWithoutProperties(_props, ['className', 'children']);
-
-            return _react2.default.createElement(
-                'header',
-                _extends({}, props, {
-                    className: (0, _classnames2.default)(className, _index2.default.siteHeader)
-                }),
-                children
-            );
-        }
-    }]);
-
-    return SiteHeader;
-}(_react.Component);
-
-exports.default = SiteHeader;
-
-/***/ }),
-
-/***/ "../src/SiteTitle.jsx":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _classnames = __webpack_require__("../node_modules/classnames/index.js");
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-var _react = __webpack_require__("../node_modules/react/react.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _index = __webpack_require__("../src/index.styl");
-
-var _index2 = _interopRequireDefault(_index);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SiteTitle = function (_Component) {
-    _inherits(SiteTitle, _Component);
-
-    function SiteTitle() {
-        _classCallCheck(this, SiteTitle);
-
-        return _possibleConstructorReturn(this, (SiteTitle.__proto__ || Object.getPrototypeOf(SiteTitle)).apply(this, arguments));
-    }
-
-    _createClass(SiteTitle, [{
-        key: 'render',
-        value: function render() {
-            var _props = this.props,
-                className = _props.className,
-                children = _props.children,
-                props = _objectWithoutProperties(_props, ['className', 'children']);
-
-            return _react2.default.createElement(
-                'h1',
-                _extends({}, props, { className: (0, _classnames2.default)(className, _index2.default.siteTitle) }),
-                children
-            );
-        }
-    }]);
-
-    return SiteTitle;
-}(_react.Component);
-
-exports.default = SiteTitle;
-
-/***/ }),
-
 /***/ "../src/capitalize.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -30260,7 +30074,6 @@ function capitalize(string) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.SiteTitle = exports.SiteBanner = exports.SiteHeader = undefined;
 
 var _Navbar = __webpack_require__("../src/Navbar.jsx");
 
@@ -30282,18 +30095,6 @@ var _NavbarCollapse = __webpack_require__("../src/NavbarCollapse.jsx");
 
 var _NavbarCollapse2 = _interopRequireDefault(_NavbarCollapse);
 
-var _SiteHeader2 = __webpack_require__("../src/SiteHeader.jsx");
-
-var _SiteHeader3 = _interopRequireDefault(_SiteHeader2);
-
-var _SiteBanner2 = __webpack_require__("../src/SiteBanner.jsx");
-
-var _SiteBanner3 = _interopRequireDefault(_SiteBanner2);
-
-var _SiteTitle2 = __webpack_require__("../src/SiteTitle.jsx");
-
-var _SiteTitle3 = _interopRequireDefault(_SiteTitle2);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _Navbar2.default.Brand = _NavbarBrand2.default;
@@ -30301,9 +30102,6 @@ _Navbar2.default.Header = _NavbarHeader2.default;
 _Navbar2.default.Toggle = _NavbarToggle2.default;
 _Navbar2.default.Collapse = _NavbarCollapse2.default;
 
-exports.SiteHeader = _SiteHeader3.default;
-exports.SiteBanner = _SiteBanner3.default;
-exports.SiteTitle = _SiteTitle3.default;
 exports.default = _Navbar2.default;
 
 /***/ }),
@@ -30335,13 +30133,6 @@ if(false) {
 
 /***/ }),
 
-/***/ "../src/tball.svg":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "efe2a52b957d048ce7ae71931056eeee.svg";
-
-/***/ }),
-
 /***/ "./HorizontalNavbar1.jsx":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -30370,6 +30161,10 @@ var _src = __webpack_require__("../src/index.js");
 
 var _src2 = _interopRequireDefault(_src);
 
+var _index = __webpack_require__("./index.styl");
+
+var _index2 = _interopRequireDefault(_index);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var HorizontalNavbar = function HorizontalNavbar(_ref) {
@@ -30382,15 +30177,15 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
         'div',
         null,
         _react2.default.createElement(
-            _src.SiteHeader,
-            null,
+            'header',
+            { className: _index2.default.siteHeader },
             _react2.default.createElement(
                 _reactAnchor2.default,
                 null,
-                _react2.default.createElement(_src.SiteBanner, null),
+                _react2.default.createElement('i', { className: _index2.default.banner }),
                 _react2.default.createElement(
-                    _src.SiteTitle,
-                    null,
+                    'h1',
+                    { className: _index2.default.title },
                     'Product Name'
                 )
             )
@@ -30625,6 +30420,10 @@ var _src = __webpack_require__("../src/index.js");
 
 var _src2 = _interopRequireDefault(_src);
 
+var _index = __webpack_require__("./index.styl");
+
+var _index2 = _interopRequireDefault(_index);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var HorizontalNavbar = function HorizontalNavbar(_ref) {
@@ -30637,15 +30436,15 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
         'div',
         null,
         _react2.default.createElement(
-            _src.SiteHeader,
-            null,
+            'header',
+            { className: _index2.default.siteHeader },
             _react2.default.createElement(
                 _reactAnchor2.default,
                 null,
-                _react2.default.createElement(_src.SiteBanner, null),
+                _react2.default.createElement('i', { className: _index2.default.banner }),
                 _react2.default.createElement(
-                    _src.SiteTitle,
-                    null,
+                    'h1',
+                    { className: _index2.default.title },
                     'Product Name'
                 )
             )
@@ -30970,6 +30769,33 @@ _reactDom2.default.render(_react2.default.createElement(App, null), document.get
 
 /***/ }),
 
+/***/ "./index.styl":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("../node_modules/css-loader/index.js?camelCase&modules&importLoaders=1&localIdentName=[local]---[hash:base64:5]!../node_modules/stylus-loader/index.js!../node_modules/stylint-loader/index.js!./index.styl");
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__("../node_modules/style-loader/addStyles.js")(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../node_modules/css-loader/index.js?camelCase&modules&importLoaders=1&localIdentName=[local]---[hash:base64:5]!../node_modules/stylus-loader/index.js!../node_modules/stylint-loader/index.js!./index.styl", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js?camelCase&modules&importLoaders=1&localIdentName=[local]---[hash:base64:5]!../node_modules/stylus-loader/index.js!../node_modules/stylint-loader/index.js!./index.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
 /***/ "./layout/Navbar.jsx":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -31223,7 +31049,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.Navbar = _Navbar3.default;
 exports.Section = _Section3.default;
 
+/***/ }),
+
+/***/ "./tball.svg":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "efe2a52b957d048ce7ae71931056eeee.svg";
+
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.js.map?f0a5e01bbfbeefdb2354
+//# sourceMappingURL=bundle.js.map?c641eda4491472c8f7c0
