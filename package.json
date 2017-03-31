@@ -1,0 +1,99 @@
+{
+  "name": "@trendmicro/react-navbar",
+  "version": "0.1.0",
+  "description": "Trend Micro Components: React Navbar",
+  "main": "lib/index.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "prepublish": "npm run lint && npm test && npm run clean && npm run bowersync && npm run build && npm run build-examples",
+    "bowersync": "./scripts/bowersync",
+    "build": "webpack && npm run cleancss",
+    "build-examples": "cd examples; webpack",
+    "clean": "rm -f {lib,dist}/*",
+    "cleancss": "cleancss -o dist/react-navbar.min.css dist/react-navbar.css",
+    "demo": "http-server -p 8000 docs/",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src",
+    "test": "./babel-tap --coverage test/*.js",
+    "coveralls": "./babel-tap --coverage --coverage-report=text-lcov test/*.js | node_modules/.bin/coveralls",
+    "dev": "cd examples; webpack-dev-server --hot --inline --host 0.0.0.0 --port 8000 --content-base ../docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trendmicro-frontend/react-navbar.git"
+  },
+  "author": "Cheton Wu <cheton_wu@trend.com.tw>",
+  "contributors": [
+    {
+      "name": "Cheton Wu",
+      "email": "cheton_wu@trend.com.tw",
+      "url": "https://github.com/cheton"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trendmicro-frontend/react-navbar/issues"
+  },
+  "homepage": "https://github.com/trendmicro-frontend/react-navbar",
+  "keywords": [
+    "react",
+    "react-navbar",
+    "navbar"
+  ],
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0"
+  },
+  "dependencies": {
+    "chained-function": "^0.5.0",
+    "classnames": "^2.2.5",
+    "dom-helpers": "^3.2.1",
+    "react-addons-shallow-compare": "^0.14.0 || ^15.0.0",
+    "react-overlays": "^0.6.12",
+    "uncontrollable": "^4.0.3"
+  },
+  "devDependencies": {
+    "@trendmicro/react-anchor": "~0.5.2",
+    "@trendmicro/react-buttons": "~1.0.1",
+    "@trendmicro/react-dropdown": "~0.6.6",
+    "@trendmicro/react-navs": "~0.8.0",
+    "babel-cli": "~6.24.0",
+    "babel-core": "~6.24.0",
+    "babel-eslint": "~7.2.1",
+    "babel-loader": "~6.4.1",
+    "babel-plugin-transform-decorators-legacy": "~1.3.4",
+    "babel-preset-es2015": "~6.24.0",
+    "babel-preset-react": "~6.23.0",
+    "babel-preset-stage-0": "~6.22.0",
+    "clean-css": "~4.0.10",
+    "clean-css-cli": "~4.0.10",
+    "coveralls": "~2.12.0",
+    "css-loader": "~0.27.3",
+    "eslint": "~3.18.0",
+    "eslint-config-trendmicro": "~0.5.1",
+    "eslint-loader": "~1.7.0",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-jsx-a11y": "~2.2.3",
+    "eslint-plugin-react": "~6.10.3",
+    "extract-text-webpack-plugin": "~2.1.0",
+    "file-loader": "~0.10.1",
+    "find-imports": "~0.5.2",
+    "html-webpack-plugin": "~2.28.0",
+    "http-server": "~0.9.0",
+    "nib": "~1.1.2",
+    "react": "^0.14.0 || ^15.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0",
+    "style-loader": "~0.16.1",
+    "stylint": "~1.5.9",
+    "stylint-loader": "~1.0.0",
+    "stylus-loader": "~3.0.1",
+    "tap": "~10.3.0",
+    "trendmicro-ui": "~0.4.0",
+    "url-loader": "~0.5.8",
+    "webpack": "~2.3.2",
+    "webpack-dev-server": "~2.4.2",
+    "which": "~1.2.14"
+  }
+}
