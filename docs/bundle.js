@@ -30166,11 +30166,11 @@ var _index2 = _interopRequireDefault(_index);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var noop = function noop() {};
+
 var HorizontalNavbar = function HorizontalNavbar(_ref) {
     var state = _ref.state,
         actions = _ref.actions;
-    var autoOpen = state.autoOpen;
-
 
     return _react2.default.createElement(
         'div',
@@ -30212,11 +30212,12 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                 _react2.default.createElement(
                     _reactNavs.NavDropdown,
                     {
-                        autoOpen: autoOpen,
+                        open: false,
+                        onToggle: noop,
+                        autoOpen: true,
                         noCaret: true,
                         eventKey: 'dashboard',
-                        title: 'Dashboard',
-                        onToggle: actions.onToggle
+                        title: 'Dashboard'
                     },
                     _react2.default.createElement(
                         _reactNavs.MenuItem,
@@ -30242,11 +30243,12 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                 _react2.default.createElement(
                     _reactNavs.NavDropdown,
                     {
-                        autoOpen: autoOpen,
+                        open: false,
+                        onToggle: noop,
+                        autoOpen: true,
                         noCaret: true,
                         eventKey: 'devices',
-                        title: 'Devices',
-                        onToggle: actions.onToggle
+                        title: 'Devices'
                     },
                     _react2.default.createElement(
                         _reactNavs.MenuItem,
@@ -30272,11 +30274,12 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                 _react2.default.createElement(
                     _reactNavs.NavDropdown,
                     {
-                        autoOpen: autoOpen,
+                        open: false,
+                        onToggle: noop,
+                        autoOpen: true,
                         noCaret: true,
                         eventKey: 'reports',
-                        title: 'Reports',
-                        onToggle: actions.onToggle
+                        title: 'Reports'
                     },
                     _react2.default.createElement(
                         _reactNavs.MenuItem,
@@ -30302,11 +30305,12 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                 _react2.default.createElement(
                     _reactNavs.NavDropdown,
                     {
-                        autoOpen: autoOpen,
+                        open: false,
+                        onToggle: noop,
+                        autoOpen: true,
                         noCaret: true,
                         eventKey: 'administration',
-                        title: 'Administration',
-                        onToggle: actions.onToggle
+                        title: 'Administration'
                     },
                     _react2.default.createElement(
                         _reactNavs.MenuItem,
@@ -30341,11 +30345,12 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                 _react2.default.createElement(
                     _reactNavs.NavDropdown,
                     {
-                        autoOpen: autoOpen,
+                        open: false,
+                        onToggle: noop,
+                        autoOpen: true,
                         noCaret: true,
                         eventKey: 'help',
-                        title: 'Help',
-                        onToggle: actions.onToggle
+                        title: 'Help'
                     },
                     _react2.default.createElement(
                         _reactNavs.MenuItem,
@@ -30425,11 +30430,11 @@ var _index2 = _interopRequireDefault(_index);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var noop = function noop() {};
+
 var HorizontalNavbar = function HorizontalNavbar(_ref) {
     var state = _ref.state,
         actions = _ref.actions;
-    var autoOpen = state.autoOpen;
-
 
     return _react2.default.createElement(
         'div',
@@ -30472,10 +30477,11 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                 _react2.default.createElement(
                     _reactNavs.NavDropdown,
                     {
-                        autoOpen: autoOpen,
+                        open: false,
+                        onToggle: noop,
+                        autoOpen: true,
                         eventKey: 'devices',
-                        title: 'Devices',
-                        onToggle: actions.onToggle
+                        title: 'Devices'
                     },
                     _react2.default.createElement(
                         _reactNavs.MenuItem,
@@ -30501,10 +30507,11 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                 _react2.default.createElement(
                     _reactNavs.NavDropdown,
                     {
-                        autoOpen: autoOpen,
+                        open: false,
+                        onToggle: noop,
+                        autoOpen: true,
                         eventKey: 'reports',
-                        title: 'Reports',
-                        onToggle: actions.onToggle
+                        title: 'Reports'
                     },
                     _react2.default.createElement(
                         _reactNavs.MenuItem,
@@ -30530,10 +30537,11 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                 _react2.default.createElement(
                     _reactNavs.NavDropdown,
                     {
-                        autoOpen: autoOpen,
+                        open: false,
+                        onToggle: noop,
+                        autoOpen: true,
                         eventKey: 'administration',
-                        title: 'Administration',
-                        onToggle: actions.onToggle
+                        title: 'Administration'
                     },
                     _react2.default.createElement(
                         _reactNavs.MenuItem,
@@ -30568,10 +30576,11 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                 _react2.default.createElement(
                     _reactNavs.NavDropdown,
                     {
-                        autoOpen: autoOpen,
+                        open: false,
+                        onToggle: noop,
+                        autoOpen: true,
                         eventKey: 'help',
-                        title: 'Help',
-                        onToggle: actions.onToggle
+                        title: 'Help'
                     },
                     _react2.default.createElement(
                         _reactNavs.MenuItem,
@@ -30678,12 +30687,8 @@ var App = function (_React$Component) {
         }
 
         return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = App.__proto__ || Object.getPrototypeOf(App)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-            autoOpen: true,
-            tab: '1'
+            tab: ''
         }, _this.actions = {
-            onToggle: function onToggle(open) {
-                _this.setState({ autoOpen: !open });
-            },
             selectTab: function selectTab(eventKey, event) {
                 if (!eventKey) {
                     return;
@@ -31058,4 +31063,4 @@ module.exports = __webpack_require__.p + "efe2a52b957d048ce7ae71931056eeee.svg";
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.js.map?5a853dfadd4b06476996
+//# sourceMappingURL=bundle.js.map?9e19180823c9b68c8e9c
