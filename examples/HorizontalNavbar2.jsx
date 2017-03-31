@@ -2,21 +2,20 @@ import Anchor from '@trendmicro/react-anchor';
 import Dropdown from '@trendmicro/react-dropdown';
 import React, { PropTypes } from 'react';
 import { Nav, NavDropdown, NavItem, MenuItem } from '@trendmicro/react-navs';
-import Navbar, { SiteHeader, SiteBanner, SiteTitle } from '../src';
+import Navbar from '../src';
+import styles from './index.styl';
 
 const HorizontalNavbar = ({ state, actions }) => {
     const { autoOpen } = state;
 
     return (
         <div>
-            <SiteHeader>
+            <header className={styles.siteHeader}>
                 <Anchor>
-                    <SiteBanner />
-                    <SiteTitle>
-                        Product Name
-                    </SiteTitle>
+                    <i className={styles.banner} />
+                    <h1 className={styles.title}>Product Name</h1>
                 </Anchor>
-            </SiteHeader>
+            </header>
             <Navbar>
                 <Navbar.Header />
                 <Nav
