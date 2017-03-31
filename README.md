@@ -51,9 +51,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                 </Anchor>
             </header>
             <Navbar>
-                <Navbar.Header>
-                    <Navbar.Toggle />
-                </Navbar.Header>
                 <Nav
                     navStyle="navbar"
                     activeKey={state.tab}
