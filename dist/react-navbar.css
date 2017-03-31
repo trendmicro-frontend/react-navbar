@@ -1,35 +1,4 @@
 /*! react-navbar v0.1.0 | (c) 2017 Trend Micro Inc. | MIT | https://github.com/trendmicro-frontend/react-navbar */
-.navbar---site-header---2DfPy {
-  position: relative;
-  padding: 0 20px;
-  height: 64px;
-  margin-bottom: 0;
-  background-color: #fff;
-}
-.navbar---site-header---2DfPy a:link,
-.navbar---site-header---2DfPy a:hover,
-.navbar---site-header---2DfPy a:active,
-.navbar---site-header---2DfPy a:visited,
-.navbar---site-header---2DfPy a:focus {
-  color: #222;
-  text-decoration: none;
-}
-.navbar---site-header---2DfPy .navbar---banner---GOM0s {
-  width: 32px;
-  height: 32px;
-  margin: 16px 0;
-  margin-right: 10px;
-  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzYgMzYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDM2IDM2IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBmaWxsPSIjRUQxQzI0IiBkPSJNMy4yNzgsMjEuNDM4YzAuMDA3LTAuMDIxLDAuMDE0LTAuMDM4LDAuMDIzLTAuMDYyYzAuMDIxLTAuMDYyLDAuMDQ4LTAuMTI5LDAuMDcyLTAuMTkyDQoJCQljMC4wMjEtMC4wNiwwLjA0NS0wLjExNSwwLjA2Ny0wLjE3NWMwLjAxMS0wLjAyNiwwLjAyMi0wLjA1NSwwLjAzMi0wLjA3OWMwLjMzNS0wLjgyOSwwLjc1OC0xLjY4MSwxLjI3LTIuNTQzDQoJCQljMC4wNjctMC4xNDQsMC4xMzUtMC4yODQsMC4yMDUtMC40MjdsLTIuMTU1LDAuMDA2bDAuNTIzLTEuMTU0YzEuNzgtMC40ODYsNC43NS0xLjQ3OSw3LjU4Mi00LjIyN2wwLjA4NC0wLjAwNmgxLjQ5MQ0KCQkJbC0xLjkyOCw0LjEzM2wzLjA5OS0wLjAxbC0wLjU2OSwxLjIzbC0zLjA5MiwwLjAxMWMwLDAtMS40NTEsMi45MDEtMS45NDMsNC45NzZjLTAuMzgzLDIuMzE0LTAuMDA2LDQuMDQ1LDIuMDY3LDQuNjg5DQoJCQljMS4yODEsMC4zOTYsMi44OCwwLjMwNyw0LjYwMy0wLjE4YzQuMDExLTEuMjUsOC4yOTUtNC4wMDYsMTEuNDMxLTcuNjU0YzUuMTYyLTUuOTk3LDUuMjY1LTEyLjEzLDAuMjI4LTEzLjY5Nw0KCQkJQzIzLjE0LDUuMDcyLDE4LjU4NSw2LjE4OCwxNC4zNyw4LjcwMkMxOS42MjQsNS4zMSwyNS40MDMsMy43MiwyOS4zOTIsNC45NmMwLjc0OCwwLjIzMywxLjM5NSwwLjU1NCwxLjk0NSwwLjk0OQ0KCQkJYy0zLjI5My0zLjYzMi04LjA1MS01LjkxLTEzLjM0LTUuOTFjLTkuOTM4LDAtMTcuOTk4LDguMDU5LTE3Ljk5OCwxNy45OThjMCwzLjY3LDEuMSw3LjA4NCwyLjk4NCw5LjkzMg0KCQkJQzIuMjcxLDI2LjE2OSwyLjM3MSwyMy45MTUsMy4yNzgsMjEuNDM4eiIvPg0KCQk8cGF0aCBmaWxsPSIjRUQxQzI0IiBkPSJNMzMuMjYxLDguNDUyYzEuMjAzLDMuMjY5LTAuMzAzLDguMTUxLTQuNDYsMTIuOTgyYy02LjI0MSw3LjI1OC0xNi4xMDMsMTEuNjQ4LTIyLjAxOSw5LjgwNQ0KCQkJYy0wLjczNi0wLjIyNy0xLjM3My0wLjU0My0xLjkxNi0wLjkzMmMzLjI4NCwzLjUwNCw3Ljk1MSw1LjY5MywxMy4xMzEsNS42OTNjOS45NDMsMCwxOC4wMDQtOC4wNiwxOC4wMDQtMTgNCgkJCUMzNi4wMDEsMTQuNDkxLDM0Ljk5MywxMS4yMTksMzMuMjYxLDguNDUyeiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K) center left no-repeat;
-  float: left;
-}
-.navbar---site-title---2lJf4 {
-  padding: 16px 0;
-  font-family: "Interstate-Light", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 26px;
-  font-weight: 200;
-  letter-spacing: -0.03em;
-  white-space: nowrap;
-}
 .navbar---sr-only---zXHnu {
   position: absolute;
   width: 1px;
