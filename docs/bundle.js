@@ -6337,7 +6337,7 @@ module.exports = focusNode;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
+
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -6363,7 +6363,7 @@ module.exports = focusNode;
  * @return {?DOMElement}
  */
 function getActiveElement(doc) /*?DOMElement*/{
-  doc = doc || global.document;
+  doc = doc || (typeof document !== 'undefined' ? document : undefined);
   if (typeof doc === 'undefined') {
     return null;
   }
@@ -6375,7 +6375,6 @@ function getActiveElement(doc) /*?DOMElement*/{
 }
 
 module.exports = getActiveElement;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("../node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -31059,4 +31058,4 @@ module.exports = __webpack_require__.p + "efe2a52b957d048ce7ae71931056eeee.svg";
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.js.map?c641eda4491472c8f7c0
+//# sourceMappingURL=bundle.js.map?5a853dfadd4b06476996

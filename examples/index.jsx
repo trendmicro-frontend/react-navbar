@@ -10,13 +10,9 @@ import HorizontalNavbar2 from './HorizontalNavbar2';
 
 class App extends React.Component {
     state = {
-        autoOpen: true,
-        tab: '1'
+        tab: ''
     };
     actions = {
-        onToggle: (open) => {
-            this.setState({ autoOpen: !open });
-        },
         selectTab: (eventKey, event) => {
             if (!eventKey) {
                 return;

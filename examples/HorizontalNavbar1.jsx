@@ -5,9 +5,9 @@ import { Nav, NavDropdown, NavItem, MenuItem } from '@trendmicro/react-navs';
 import Navbar from '../src';
 import styles from './index.styl';
 
-const HorizontalNavbar = ({ state, actions }) => {
-    const { autoOpen } = state;
+const noop = () => {};
 
+const HorizontalNavbar = ({ state, actions }) => {
     return (
         <div>
             <header className={styles.siteHeader}>
@@ -29,11 +29,12 @@ const HorizontalNavbar = ({ state, actions }) => {
                         <i className="fa fa-star" style={{ color: '#fff' }} />
                     </NavItem>
                     <NavDropdown
-                        autoOpen={autoOpen}
+                        open={false}
+                        onToggle={noop}
+                        autoOpen
                         noCaret
                         eventKey="dashboard"
                         title="Dashboard"
-                        onToggle={actions.onToggle}
                     >
                         <MenuItem eventKey="dashboard.1">Menu Item 1</MenuItem>
                         <MenuItem eventKey="dashboard.2">Menu Item 2</MenuItem>
@@ -41,11 +42,12 @@ const HorizontalNavbar = ({ state, actions }) => {
                         <MenuItem eventKey="dashboard.4">Menu Item 4</MenuItem>
                     </NavDropdown>
                     <NavDropdown
-                        autoOpen={autoOpen}
+                        open={false}
+                        onToggle={noop}
+                        autoOpen
                         noCaret
                         eventKey="devices"
                         title="Devices"
-                        onToggle={actions.onToggle}
                     >
                         <MenuItem eventKey="devices.1">Menu Item 1</MenuItem>
                         <MenuItem eventKey="devices.2">Menu Item 2</MenuItem>
@@ -53,11 +55,12 @@ const HorizontalNavbar = ({ state, actions }) => {
                         <MenuItem eventKey="devices.4">Menu Item 4</MenuItem>
                     </NavDropdown>
                     <NavDropdown
-                        autoOpen={autoOpen}
+                        open={false}
+                        onToggle={noop}
+                        autoOpen
                         noCaret
                         eventKey="reports"
                         title="Reports"
-                        onToggle={actions.onToggle}
                     >
                         <MenuItem eventKey="reports.1">Menu Item 1</MenuItem>
                         <MenuItem eventKey="reports.2">Menu Item 2</MenuItem>
@@ -65,11 +68,12 @@ const HorizontalNavbar = ({ state, actions }) => {
                         <MenuItem eventKey="reports.4">Menu Item 4</MenuItem>
                     </NavDropdown>
                     <NavDropdown
-                        autoOpen={autoOpen}
+                        open={false}
+                        onToggle={noop}
+                        autoOpen
                         noCaret
                         eventKey="administration"
                         title="Administration"
-                        onToggle={actions.onToggle}
                     >
                         <MenuItem eventKey="administration.1">Menu Item 1</MenuItem>
                         <MenuItem eventKey="administration.2">Menu Item 2</MenuItem>
@@ -84,11 +88,12 @@ const HorizontalNavbar = ({ state, actions }) => {
                         </Dropdown.SubMenu>
                     </NavDropdown>
                     <NavDropdown
-                        autoOpen={autoOpen}
+                        open={false}
+                        onToggle={noop}
+                        autoOpen
                         noCaret
                         eventKey="help"
                         title="Help"
-                        onToggle={actions.onToggle}
                     >
                         <MenuItem eventKey="help.1">Menu Item 1</MenuItem>
                         <MenuItem eventKey="help.2">Menu Item 2</MenuItem>
