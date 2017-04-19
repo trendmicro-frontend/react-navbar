@@ -30106,6 +30106,10 @@ var _classnames = __webpack_require__("../node_modules/classnames/index.js");
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
+var _propTypes = __webpack_require__("../node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _react = __webpack_require__("../node_modules/react/react.js");
 
 var _react2 = _interopRequireDefault(_react);
@@ -30216,8 +30220,8 @@ var _default = (_temp2 = _class = function (_Component) {
 
     return _default;
 }(_react.Component), _class.propTypes = {
-    name: _react.PropTypes.string,
-    url: _react.PropTypes.string
+    name: _propTypes2.default.string,
+    url: _propTypes2.default.string
 }, _temp2);
 
 exports.default = _default;
@@ -30350,4 +30354,4 @@ module.exports = __webpack_require__.p + "efe2a52b957d048ce7ae71931056eeee.svg";
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.js.map?0bf1ddc19956cbb4cbbb
+//# sourceMappingURL=bundle.js.map?8950100807ee0755534f
