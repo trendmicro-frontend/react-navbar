@@ -29465,6 +29465,10 @@ var _reactDropdown = __webpack_require__("../node_modules/@trendmicro/react-drop
 
 var _reactDropdown2 = _interopRequireDefault(_reactDropdown);
 
+var _propTypes = __webpack_require__("../node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _react = __webpack_require__("../node_modules/react/react.js");
 
 var _react2 = _interopRequireDefault(_react);
@@ -29703,8 +29707,8 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
 };
 
 HorizontalNavbar.propTypes = {
-    state: _react.PropTypes.object,
-    actions: _react.PropTypes.object
+    state: _propTypes2.default.object,
+    actions: _propTypes2.default.object
 };
 
 exports.default = HorizontalNavbar;
@@ -29728,6 +29732,10 @@ var _reactAnchor2 = _interopRequireDefault(_reactAnchor);
 var _reactDropdown = __webpack_require__("../node_modules/@trendmicro/react-dropdown/lib/index.js");
 
 var _reactDropdown2 = _interopRequireDefault(_reactDropdown);
+
+var _propTypes = __webpack_require__("../node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _react = __webpack_require__("../node_modules/react/react.js");
 
@@ -29933,8 +29941,8 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
 };
 
 HorizontalNavbar.propTypes = {
-    state: _react.PropTypes.object,
-    actions: _react.PropTypes.object
+    state: _propTypes2.default.object,
+    actions: _propTypes2.default.object
 };
 
 exports.default = HorizontalNavbar;
@@ -30382,4 +30390,4 @@ module.exports = __webpack_require__.p + "efe2a52b957d048ce7ae71931056eeee.svg";
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.js.map?e396cc0aa143637bfc06
+//# sourceMappingURL=bundle.js.map?a010c9022d1594dddfbd
