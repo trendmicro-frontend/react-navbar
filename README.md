@@ -29,9 +29,10 @@ Demo: https://trendmicro-frontend.github.io/react-navbar
 
 ### Horizontal Navigation Bar
 
-#### app.jsx
+#### HorizontalNavbar.jsx
 ```js
-import React, { PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import Anchor from '@trendmicro/react-anchor';
 import Dropdown from '@trendmicro/react-dropdown';
@@ -76,32 +77,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                         onToggle={noop}
                         autoOpen
                         noCaret
-                        eventKey="devices"
-                        title="Devices"
-                    >
-                        <MenuItem eventKey="devices.1">Menu Item 1</MenuItem>
-                        <MenuItem eventKey="devices.2">Menu Item 2</MenuItem>
-                        <MenuItem eventKey="devices.3">Menu Item 3</MenuItem>
-                        <MenuItem eventKey="devices.4">Menu Item 4</MenuItem>
-                    </NavDropdown>
-                    <NavDropdown
-                        open={false}
-                        onToggle={noop}
-                        autoOpen
-                        noCaret
-                        eventKey="reports"
-                        title="Reports"
-                    >
-                        <MenuItem eventKey="reports.1">Menu Item 1</MenuItem>
-                        <MenuItem eventKey="reports.2">Menu Item 2</MenuItem>
-                        <MenuItem eventKey="reports.3">Menu Item 3</MenuItem>
-                        <MenuItem eventKey="reports.4">Menu Item 4</MenuItem>
-                    </NavDropdown>
-                    <NavDropdown
-                        open={false}
-                        onToggle={noop}
-                        autoOpen
-                        noCaret
                         eventKey="administration"
                         title="Administration"
                     >
@@ -121,30 +96,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                             </MenuItem>
                         </Dropdown.SubMenu>
                     </NavDropdown>
-                    <NavDropdown
-                        open={false}
-                        onToggle={noop}
-                        autoOpen
-                        noCaret
-                        eventKey="help"
-                        title="Help"
-                    >
-                        <MenuItem eventKey="help.1">Menu Item 1</MenuItem>
-                        <MenuItem eventKey="help.2">Menu Item 2</MenuItem>
-                        <MenuItem eventKey="help.3">Menu Item 3</MenuItem>
-                        <Dropdown.SubMenu
-                            eventKey="help.4"
-                            title="Menu item 4"
-                            onSelect={actions.selectTab}
-                        >
-                            <MenuItem eventKey="help.4.1">
-                                Second level item one
-                            </MenuItem>
-                            <MenuItem eventKey="help.4.2">
-                                Second level item two
-                            </MenuItem>
-                        </Dropdown.SubMenu>
-                    </NavDropdown>
                 </Nav>
             </Navbar>
         </div>
@@ -155,6 +106,15 @@ HorizontalNavbar.propTypes = {
     state: PropTypes.object,
     actions: PropTypes.object
 };
+
+export default HorizontalNavbar;
+```
+
+#### app.jsx
+```js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import HorizontalNavbar from './HorizontalNavbar.jsx';
 
 class App extends React.Component {
     state = {
