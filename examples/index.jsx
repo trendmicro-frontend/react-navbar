@@ -33,7 +33,7 @@ class App extends React.Component {
                 <div className="container-fluid" style={{ padding: '20px 20px 0' }}>
                     <div className="row">
                         <div className="col-md-12">
-                            <Layout.Section className="row-md-5">
+                            <Layout.Section className="row-md-12">
                                 <h3>Horizontal Navigation Bar #1</h3>
                                 <p>Do not use arrows if all nav dropdowns contain sub-items.</p>
                                 <HorizontalNavbar1
@@ -43,7 +43,7 @@ class App extends React.Component {
                             </Layout.Section>
                         </div>
                         <div className="col-md-12">
-                            <Layout.Section className="row-md-5">
+                            <Layout.Section className="row-md-12">
                                 <h3>Horizontal Navigation Bar #2</h3>
                                 <p>Use arrows for the nav dropdown containing sub-items.</p>
                                 <HorizontalNavbar2

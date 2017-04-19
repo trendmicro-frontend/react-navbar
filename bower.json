@@ -13,7 +13,8 @@
   "keywords": [
     "react",
     "react-navbar",
-    "navbar"
+    "navbar",
+    "sticky"
   ],
   "license": "MIT"
 }
