@@ -1,6 +1,7 @@
 import Anchor from '@trendmicro/react-anchor';
 import Dropdown from '@trendmicro/react-dropdown';
-import React, { PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 import { Nav, NavDropdown, NavItem, MenuItem } from '@trendmicro/react-navs';
 import Navbar from '../src';
 import styles from './index.styl';
