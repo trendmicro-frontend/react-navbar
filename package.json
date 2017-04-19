@@ -1,6 +1,6 @@
 {
   "name": "@trendmicro/react-navbar",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Trend Micro Components: React Navbar",
   "main": "lib/index.js",
   "files": [
@@ -47,7 +47,7 @@
     "react": "^0.14.0 || ^15.0.0"
   },
   "dependencies": {
-    "@trendmicro/react-navs": "^0.8.1",
+    "@trendmicro/react-navs": "^0.8.3",
     "chained-function": "^0.5.0",
     "classnames": "^2.2.5",
     "dom-helpers": "^3.2.1",
@@ -58,7 +58,7 @@
   "devDependencies": {
     "@trendmicro/react-anchor": "~0.5.4",
     "@trendmicro/react-buttons": "~1.0.3",
-    "@trendmicro/react-dropdown": "~0.6.7",
+    "@trendmicro/react-dropdown": "~0.6.9",
     "babel-cli": "~6.24.0",
     "babel-core": "~6.24.0",
     "babel-eslint": "~7.2.1",

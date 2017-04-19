@@ -19,8 +19,8 @@ class Navbar extends Component {
         // Create a fixed navbar along the top of the screen, that scrolls with the page.
         fixedTop: PropTypes.bool,
 
-        // Create a full-width navbar that scrolls away the page.
-        staticTop: PropTypes.bool,
+        // Create a fixed navbar along the bottom of the screen, that scrolls with the page.
+        fixedBottom: PropTypes.bool,
 
         // Explicitly set the visibility of the navbar body.
         expanded: PropTypes.bool,
@@ -43,7 +43,7 @@ class Navbar extends Component {
     static defaultProps = {
         componentClass: 'nav',
         fixedTop: false,
-        staticTop: false
+        fixedBottom: false
     };
     static childContextTypes = {
         $tm_navbar: PropTypes.shape({
@@ -80,7 +80,7 @@ class Navbar extends Component {
         const {
             componentClass: Nav,
             fixedTop,
-            staticTop,
+            fixedBottom,
             role,
             className,
             children,
@@ -97,10 +97,8 @@ class Navbar extends Component {
                 role={role}
                 className={classNames(
                     className,
-                    {
-                        [styles.fixedTop]: fixedTop,
-                        [styles.staticTop]: staticTop
-                    },
+                    { [styles.navbarFixedTop]: fixedTop },
+                    { [styles.navbarFixedBottom]: fixedBottom },
                     styles.navbar,
                     styles.navbarDefault
                 )}

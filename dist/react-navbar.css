@@ -1,4 +1,4 @@
-/*! react-navbar v0.2.0 | (c) 2017 Trend Micro Inc. | MIT | https://github.com/trendmicro-frontend/react-navbar */
+/*! react-navbar v0.2.1 | (c) 2017 Trend Micro Inc. | MIT | https://github.com/trendmicro-frontend/react-navbar */
 .navbar---sr-only---zXHnu {
   position: absolute;
   width: 1px;
@@ -13,6 +13,28 @@
   position: relative;
   height: 40px;
   border: 0;
+}
+.navbar---navbar-fixed-top---3dov0,
+.navbar---navbar-fixed-bottom---1XC9a {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+@media (min-width: 768px) {
+  .navbar---navbar-fixed-top---3dov0,
+  .navbar---navbar-fixed-bottom---1XC9a {
+    border-radius: 0;
+  }
+}
+.navbar---navbar-fixed-top---3dov0 {
+  top: 0;
+  border-width: 0 0 1px;
+}
+.navbar---navbar-fixed-bottom---1XC9a {
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
 }
 .navbar---navbar-default---3rqTh {
   background-color: #db3d44;
