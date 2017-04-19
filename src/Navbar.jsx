@@ -1,11 +1,11 @@
 import classNames from 'classnames';
-import React, { Component, PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import shallowCompare from 'react-addons-shallow-compare';
 import uncontrollable from 'uncontrollable';
 import NavbarBrand from './NavbarBrand';
 import NavbarHeader from './NavbarHeader';
 import NavbarToggle from './NavbarToggle';
-import NavbarCollapse from './NavbarCollapse';
 import styles from './index.styl';
 
 class Navbar extends Component {
@@ -119,6 +119,5 @@ const UncontrollableNavbar = uncontrollable(Navbar, {
 UncontrollableNavbar.Brand = NavbarBrand;
 UncontrollableNavbar.Header = NavbarHeader;
 UncontrollableNavbar.Toggle = NavbarToggle;
-UncontrollableNavbar.Collapse = NavbarCollapse;
 
 export default UncontrollableNavbar;
