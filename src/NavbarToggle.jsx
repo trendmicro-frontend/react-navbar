@@ -1,11 +1,10 @@
 import chainedFunction from 'chained-function';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import React, { Component } from 'react';
-import shallowCompare from 'react-addons-shallow-compare';
+import React, { PureComponent } from 'react';
 import styles from './index.styl';
 
-class NavbarToggle extends Component {
+class NavbarToggle extends PureComponent {
     static propTypes = {
         onClick: PropTypes.func,
 
@@ -19,9 +18,6 @@ class NavbarToggle extends Component {
         })
     };
 
-    shouldComponentUpdate(nextProps, nextState) {
-        return shallowCompare(this, nextProps, nextState);
-    }
     render() {
         const { onClick, className, children, ...props } = this.props;
         const navbar = this.context.$tm_navbar;

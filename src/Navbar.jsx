@@ -1,14 +1,13 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import React, { Component } from 'react';
-import shallowCompare from 'react-addons-shallow-compare';
+import React, { PureComponent } from 'react';
 import uncontrollable from 'uncontrollable';
 import NavbarBrand from './NavbarBrand';
 import NavbarHeader from './NavbarHeader';
 import NavbarToggle from './NavbarToggle';
 import styles from './index.styl';
 
-class Navbar extends Component {
+class Navbar extends PureComponent {
     static propTypes = {
         // Set a custom element for this component.
         componentClass: PropTypes.oneOfType([
@@ -72,9 +71,6 @@ class Navbar extends Component {
                 onToggle: this.actions.handleToggle
             }
         };
-    }
-    shouldComponentUpdate(nextProps, nextState) {
-        return shallowCompare(this, nextProps, nextState);
     }
     render() {
         const {
