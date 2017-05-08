@@ -8,10 +8,10 @@ Demo: https://trendmicro-frontend.github.io/react-navbar
 
 ## Installation
 
-1. Install the latest version of [react](https://github.com/facebook/react), [react-sticky](https://github.com/captivationsoftware/react-sticky), and [react-navbar](https://github.com/trendmicro-frontend/react-navbar):
+1. Install the latest version of [react](https://github.com/facebook/react), [react-sticky@5](https://github.com/captivationsoftware/react-sticky), and [react-navbar](https://github.com/trendmicro-frontend/react-navbar):
 
   ```
-  npm install --save react react-sticky @trendmicro/react-navbar
+  npm install --save react react-sticky@5 @trendmicro/react-navbar
   ```
 
 2. At this point you can import `@trendmicro/react-navbar` and all dependent styles in your application as follows:
