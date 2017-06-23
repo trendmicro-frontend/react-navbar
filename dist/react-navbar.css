@@ -1,4 +1,20 @@
-/*! react-navbar v0.2.4 | (c) 2017 Trend Micro Inc. | MIT | https://github.com/trendmicro-frontend/react-navbar */
+/*! react-navbar v0.2.5 | (c) 2017 Trend Micro Inc. | MIT | https://github.com/trendmicro-frontend/react-navbar */
+.navbar---navbar---2JqF- {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 20px;
+  position: relative;
+  height: 40px;
+  border: 0;
+}
+.navbar---navbar---2JqF- *,
+.navbar---navbar---2JqF- *:before,
+.navbar---navbar---2JqF- *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
 .navbar---sr-only---zXHnu {
   position: absolute;
   width: 1px;
@@ -7,11 +23,6 @@
   padding: 0;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-.navbar---navbar---2JqF- {
-  position: relative;
-  height: 40px;
   border: 0;
 }
 .navbar---navbar-fixed-top---3dov0,
