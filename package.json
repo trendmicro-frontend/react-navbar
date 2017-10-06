@@ -45,7 +45,7 @@
     "sticky"
   ],
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0"
+    "react": "^0.14.0 || >=15.0.0"
   },
   "dependencies": {
     "@trendmicro/react-navs": "^0.8.5",
@@ -83,8 +83,8 @@
     "html-webpack-plugin": "~2.28.0",
     "http-server": "~0.10.0",
     "nib": "~1.1.2",
-    "react": "^0.14.0 || ^15.0.0",
-    "react-dom": "^0.14.0 || ^15.0.0",
+    "react": "^0.14.0 || >=15.0.0",
+    "react-dom": "^0.14.0 || >=15.0.0",
     "react-sticky": "~5.0.8",
     "style-loader": "~0.17.0",
     "stylint": "~1.5.9",
