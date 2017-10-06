@@ -1,6 +1,6 @@
 {
   "name": "@trendmicro/react-navbar",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Trend Micro Components: React Navbar",
   "main": "lib/index.js",
   "files": [
