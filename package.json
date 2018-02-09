@@ -50,7 +50,6 @@
     "@trendmicro/react-navs": "^0.11.0",
     "chained-function": "^0.5.0",
     "classnames": "^2.2.5",
-    "dom-helpers": "^3.3.1",
     "prop-types": "^15.6.0",
     "uncontrollable": "^5.0.0"
   },
