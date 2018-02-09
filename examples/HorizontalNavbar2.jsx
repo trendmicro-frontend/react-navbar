@@ -1,5 +1,4 @@
 import Anchor from '@trendmicro/react-anchor';
-import Dropdown from '@trendmicro/react-dropdown';
 import PropTypes from 'prop-types';
 import React from 'react';
 import { StickyContainer, Sticky } from 'react-sticky';
@@ -79,14 +78,15 @@ const HorizontalNavbar = ({ state, actions }) => {
                             <MenuItem eventKey="administration.1">Menu Item 1</MenuItem>
                             <MenuItem eventKey="administration.2">Menu Item 2</MenuItem>
                             <MenuItem eventKey="administration.3">Menu Item 3</MenuItem>
-                            <Dropdown.SubMenu eventKey="administration.4" title="Menu item 4">
+                            <MenuItem eventKey="administration.4">
+                                Menu item 4
                                 <MenuItem eventKey="administration.4.1">
                                     Second level item one
                                 </MenuItem>
                                 <MenuItem eventKey="administration.4.2">
                                     Second level item two
                                 </MenuItem>
-                            </Dropdown.SubMenu>
+                            </MenuItem>
                         </NavDropdown>
                         <NavDropdown
                             open={false}
@@ -98,14 +98,15 @@ const HorizontalNavbar = ({ state, actions }) => {
                             <MenuItem eventKey="help.1">Menu Item 1</MenuItem>
                             <MenuItem eventKey="help.2">Menu Item 2</MenuItem>
                             <MenuItem eventKey="help.3">Menu Item 3</MenuItem>
-                            <Dropdown.SubMenu eventKey="help.4" title="Menu item 4">
+                            <MenuItem eventKey="help.4">
+                                Menu item 4
                                 <MenuItem eventKey="help.4.1">
                                     Second level item one
                                 </MenuItem>
                                 <MenuItem eventKey="help.4.2">
                                     Second level item two
                                 </MenuItem>
-                            </Dropdown.SubMenu>
+                            </MenuItem>
                         </NavDropdown>
                     </Nav>
                 </Navbar>

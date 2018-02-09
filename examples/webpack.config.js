@@ -1,8 +1,8 @@
-var path = require('path');
-var webpack = require('webpack');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var stylusLoader = require('stylus-loader');
-var nib = require('nib');
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const stylusLoader = require('stylus-loader');
+const nib = require('nib');
 
 module.exports = {
     devtool: 'source-map',
@@ -87,6 +87,7 @@ module.exports = {
     },
     // https://webpack.github.io/docs/webpack-dev-server.html#additional-configuration-options
     devServer: {
+        disableHostCheck: true,
         noInfo: false,
         lazy: false,
         // https://webpack.github.io/docs/node.js-api.html#compiler
