@@ -80,8 +80,6 @@ const StickyNavbar = ({ state, actions }) => {
                             <i className="fa fa-star" style={{ color: '#fff' }} />
                         </NavItem>
                         <NavDropdown
-                            open={false}
-                            onToggle={noop}
                             autoOpen
                             noCaret
                             eventKey="dashboard"
@@ -93,8 +91,6 @@ const StickyNavbar = ({ state, actions }) => {
                             <MenuItem eventKey="dashboard.4">Menu Item 4</MenuItem>
                         </NavDropdown>
                         <NavDropdown
-                            open={false}
-                            onToggle={noop}
                             autoOpen
                             noCaret
                             eventKey="administration"
@@ -103,14 +99,15 @@ const StickyNavbar = ({ state, actions }) => {
                             <MenuItem eventKey="administration.1">Menu Item 1</MenuItem>
                             <MenuItem eventKey="administration.2">Menu Item 2</MenuItem>
                             <MenuItem eventKey="administration.3">Menu Item 3</MenuItem>
-                            <Dropdown.SubMenu eventKey="administration.4" title="Menu item 4" onSelect={actions.selectTab}>
+                            <MenuItem eventKey="administration.4">
+                                Menu item 4
                                 <MenuItem eventKey="administration.4.1">
                                     Second level item one
                                 </MenuItem>
                                 <MenuItem eventKey="administration.4.2">
                                     Second level item two
                                 </MenuItem>
-                            </Dropdown.SubMenu>
+                            </MenuItem>
                         </NavDropdown>
                     </Nav>
                 </Navbar>

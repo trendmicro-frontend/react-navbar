@@ -24971,8 +24971,6 @@ var _index2 = _interopRequireDefault(_index);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var noop = function noop() {};
-
 var PageContent = function PageContent() {
     return _react2.default.createElement(
         'div',
@@ -25043,8 +25041,6 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                     _react2.default.createElement(
                         _reactNavs.NavDropdown,
                         {
-                            open: false,
-                            onToggle: noop,
                             autoOpen: true,
                             noCaret: true,
                             eventKey: 'dashboard',
@@ -25074,8 +25070,6 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                     _react2.default.createElement(
                         _reactNavs.NavDropdown,
                         {
-                            open: false,
-                            onToggle: noop,
                             autoOpen: true,
                             noCaret: true,
                             eventKey: 'devices',
@@ -25105,8 +25099,6 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                     _react2.default.createElement(
                         _reactNavs.NavDropdown,
                         {
-                            open: false,
-                            onToggle: noop,
                             autoOpen: true,
                             noCaret: true,
                             eventKey: 'reports',
@@ -25136,8 +25128,6 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                     _react2.default.createElement(
                         _reactNavs.NavDropdown,
                         {
-                            open: false,
-                            onToggle: noop,
                             autoOpen: true,
                             noCaret: true,
                             eventKey: 'administration',
@@ -25177,8 +25167,6 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                     _react2.default.createElement(
                         _reactNavs.NavDropdown,
                         {
-                            open: false,
-                            onToggle: noop,
                             autoOpen: true,
                             noCaret: true,
                             eventKey: 'help',
@@ -25267,8 +25255,6 @@ var _index2 = _interopRequireDefault(_index);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var noop = function noop() {};
-
 var PageContent = function PageContent() {
     return _react2.default.createElement(
         'div',
@@ -25340,8 +25326,6 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                     _react2.default.createElement(
                         _reactNavs.NavDropdown,
                         {
-                            open: false,
-                            onToggle: noop,
                             autoOpen: true,
                             eventKey: 'devices',
                             title: 'Devices'
@@ -25370,8 +25354,6 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                     _react2.default.createElement(
                         _reactNavs.NavDropdown,
                         {
-                            open: false,
-                            onToggle: noop,
                             autoOpen: true,
                             eventKey: 'reports',
                             title: 'Reports'
@@ -25400,8 +25382,6 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                     _react2.default.createElement(
                         _reactNavs.NavDropdown,
                         {
-                            open: false,
-                            onToggle: noop,
                             autoOpen: true,
                             eventKey: 'administration',
                             title: 'Administration'
@@ -25440,8 +25420,6 @@ var HorizontalNavbar = function HorizontalNavbar(_ref) {
                     _react2.default.createElement(
                         _reactNavs.NavDropdown,
                         {
-                            open: false,
-                            onToggle: noop,
                             autoOpen: true,
                             eventKey: 'help',
                             title: 'Help'
@@ -26010,4 +25988,4 @@ module.exports = __webpack_require__.p + "efe2a52b957d048ce7ae71931056eeee.svg";
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.js.map?02746b51d66f288b50f4
+//# sourceMappingURL=bundle.js.map?d959d3e8b54730f758ea

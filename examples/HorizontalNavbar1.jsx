@@ -6,8 +6,6 @@ import { Nav, NavDropdown, NavItem, MenuItem } from '@trendmicro/react-navs';
 import Navbar from '../src';
 import styles from './index.styl';
 
-const noop = () => {};
-
 const PageContent = () => (
     <div
         style={{
@@ -46,8 +44,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                             <i className="fa fa-star" style={{ color: '#fff' }} />
                         </NavItem>
                         <NavDropdown
-                            open={false}
-                            onToggle={noop}
                             autoOpen
                             noCaret
                             eventKey="dashboard"
@@ -59,8 +55,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                             <MenuItem eventKey="dashboard.4">Menu Item 4</MenuItem>
                         </NavDropdown>
                         <NavDropdown
-                            open={false}
-                            onToggle={noop}
                             autoOpen
                             noCaret
                             eventKey="devices"
@@ -72,8 +66,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                             <MenuItem eventKey="devices.4">Menu Item 4</MenuItem>
                         </NavDropdown>
                         <NavDropdown
-                            open={false}
-                            onToggle={noop}
                             autoOpen
                             noCaret
                             eventKey="reports"
@@ -85,8 +77,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                             <MenuItem eventKey="reports.4">Menu Item 4</MenuItem>
                         </NavDropdown>
                         <NavDropdown
-                            open={false}
-                            onToggle={noop}
                             autoOpen
                             noCaret
                             eventKey="administration"
@@ -106,8 +96,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                             </MenuItem>
                         </NavDropdown>
                         <NavDropdown
-                            open={false}
-                            onToggle={noop}
                             autoOpen
                             noCaret
                             eventKey="help"

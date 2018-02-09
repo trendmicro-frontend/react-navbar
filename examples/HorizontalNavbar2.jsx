@@ -6,8 +6,6 @@ import { Nav, NavDropdown, NavItem, MenuItem } from '@trendmicro/react-navs';
 import Navbar from '../src';
 import styles from './index.styl';
 
-const noop = () => {};
-
 const PageContent = () => (
     <div
         style={{
@@ -45,8 +43,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                         </NavItem>
                         <NavItem eventKey="dashboard">Dashboard</NavItem>
                         <NavDropdown
-                            open={false}
-                            onToggle={noop}
                             autoOpen
                             eventKey="devices"
                             title="Devices"
@@ -57,8 +53,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                             <MenuItem eventKey="devices.4">Menu Item 4</MenuItem>
                         </NavDropdown>
                         <NavDropdown
-                            open={false}
-                            onToggle={noop}
                             autoOpen
                             eventKey="reports"
                             title="Reports"
@@ -69,8 +63,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                             <MenuItem eventKey="reports.4">Menu Item 4</MenuItem>
                         </NavDropdown>
                         <NavDropdown
-                            open={false}
-                            onToggle={noop}
                             autoOpen
                             eventKey="administration"
                             title="Administration"
@@ -89,8 +81,6 @@ const HorizontalNavbar = ({ state, actions }) => {
                             </MenuItem>
                         </NavDropdown>
                         <NavDropdown
-                            open={false}
-                            onToggle={noop}
                             autoOpen
                             eventKey="help"
                             title="Help"
