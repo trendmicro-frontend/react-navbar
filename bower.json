@@ -1,13 +1,6 @@
 {
   "name": "@trendmicro/react-navbar",
   "description": "Trend Micro Components: React Navbar",
-  "authors": [
-    {
-      "name": "Cheton Wu",
-      "email": "cheton_wu@trend.com.tw",
-      "homepage": "https://github.com/cheton"
-    }
-  ],
   "homepage": "https://github.com/trendmicro-frontend/react-navbar",
   "snapshots": [],
   "keywords": [
